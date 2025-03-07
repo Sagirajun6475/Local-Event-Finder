@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E20BCB92D5EB2E000BAF11F /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E20BCB82D5EB2E000BAF11F /* SignUpView.swift */; };
+		4E51BF472D5EB502007D9A84 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E51BF462D5EB502007D9A84 /* LoginView.swift */; };
+		4E51BF4B2D5EB664007D9A84 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E51BF4A2D5EB664007D9A84 /* ForgotPasswordView.swift */; };
+		4E51BF4D2D5EB7EA007D9A84 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E51BF4C2D5EB7EA007D9A84 /* WelcomeView.swift */; };
+		4E51BF4F2D5EDACC007D9A84 /* EnrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E51BF4E2D5EDACC007D9A84 /* EnrollView.swift */; };
 		4EBA6C582CA3588100EAAC43 /* Local_Event_FinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA6C572CA3588100EAAC43 /* Local_Event_FinderApp.swift */; };
-		4EBA6C5A2CA3588100EAAC43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA6C592CA3588100EAAC43 /* ContentView.swift */; };
 		4EBA6C5C2CA3588300EAAC43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EBA6C5B2CA3588300EAAC43 /* Assets.xcassets */; };
 		4EBA6C5F2CA3588300EAAC43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EBA6C5E2CA3588300EAAC43 /* Preview Assets.xcassets */; };
 		4EBA6C692CA3588300EAAC43 /* Local_Event_FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA6C682CA3588300EAAC43 /* Local_Event_FinderTests.swift */; };
 		4EBA6C732CA3588300EAAC43 /* Local_Event_FinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA6C722CA3588300EAAC43 /* Local_Event_FinderUITests.swift */; };
 		4EBA6C752CA3588300EAAC43 /* Local_Event_FinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA6C742CA3588300EAAC43 /* Local_Event_FinderUITestsLaunchTests.swift */; };
+		4EBA6C832CA3593500EAAC43 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA6C822CA3593500EAAC43 /* Event.swift */; };
+		4EBA6C872CA359A300EAAC43 /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA6C862CA359A300EAAC43 /* EventListView.swift */; };
+		4EBA6C892CA359BB00EAAC43 /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA6C882CA359BB00EAAC43 /* EventDetailView.swift */; };
+		4EBA6C8B2CA359F000EAAC43 /* EventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA6C8A2CA359F000EAAC43 /* EventViewModel.swift */; };
+		4EBA6C8D2CA3606600EAAC43 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA6C8C2CA3606600EAAC43 /* Theme.swift */; };
+		4EBA6C902CA398F100EAAC43 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA6C8F2CA398F100EAAC43 /* User.swift */; };
+		4EBA6C922CA3999100EAAC43 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA6C912CA3999100EAAC43 /* RegistrationView.swift */; };
+		4EBA6C942CA46DF100EAAC43 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA6C932CA46DF100EAAC43 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E20BCB82D5EB2E000BAF11F /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		4E51BF462D5EB502007D9A84 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4E51BF4A2D5EB664007D9A84 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		4E51BF4C2D5EB7EA007D9A84 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		4E51BF4E2D5EDACC007D9A84 /* EnrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrollView.swift; sourceTree = "<group>"; };
 		4EBA6C542CA3588100EAAC43 /* Local Event Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Local Event Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EBA6C572CA3588100EAAC43 /* Local_Event_FinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Local_Event_FinderApp.swift; sourceTree = "<group>"; };
-		4EBA6C592CA3588100EAAC43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4EBA6C5B2CA3588300EAAC43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EBA6C5E2CA3588300EAAC43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4EBA6C642CA3588300EAAC43 /* Local Event FinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Local Event FinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +60,14 @@
 		4EBA6C6E2CA3588300EAAC43 /* Local Event FinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Local Event FinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EBA6C722CA3588300EAAC43 /* Local_Event_FinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Local_Event_FinderUITests.swift; sourceTree = "<group>"; };
 		4EBA6C742CA3588300EAAC43 /* Local_Event_FinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Local_Event_FinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4EBA6C822CA3593500EAAC43 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		4EBA6C862CA359A300EAAC43 /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
+		4EBA6C882CA359BB00EAAC43 /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
+		4EBA6C8A2CA359F000EAAC43 /* EventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewModel.swift; sourceTree = "<group>"; };
+		4EBA6C8C2CA3606600EAAC43 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		4EBA6C8F2CA398F100EAAC43 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4EBA6C912CA3999100EAAC43 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		4EBA6C932CA46DF100EAAC43 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +118,10 @@
 		4EBA6C562CA3588100EAAC43 /* Local Event Finder */ = {
 			isa = PBXGroup;
 			children = (
-				4EBA6C572CA3588100EAAC43 /* Local_Event_FinderApp.swift */,
-				4EBA6C592CA3588100EAAC43 /* ContentView.swift */,
+				4EBA6C8E2CA3750500EAAC43 /* Main Entry Point */,
+				4EBA6C812CA358F300EAAC43 /* Models */,
+				4EBA6C842CA3595A00EAAC43 /* View */,
+				4EBA6C852CA3596600EAAC43 /* ViewModel */,
 				4EBA6C5B2CA3588300EAAC43 /* Assets.xcassets */,
 				4EBA6C5D2CA3588300EAAC43 /* Preview Content */,
 			);
@@ -125,6 +151,48 @@
 				4EBA6C742CA3588300EAAC43 /* Local_Event_FinderUITestsLaunchTests.swift */,
 			);
 			path = "Local Event FinderUITests";
+			sourceTree = "<group>";
+		};
+		4EBA6C812CA358F300EAAC43 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4EBA6C822CA3593500EAAC43 /* Event.swift */,
+				4EBA6C8C2CA3606600EAAC43 /* Theme.swift */,
+				4EBA6C8F2CA398F100EAAC43 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4EBA6C842CA3595A00EAAC43 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E51BF4C2D5EB7EA007D9A84 /* WelcomeView.swift */,
+				4E20BCB82D5EB2E000BAF11F /* SignUpView.swift */,
+				4E51BF462D5EB502007D9A84 /* LoginView.swift */,
+				4E51BF4A2D5EB664007D9A84 /* ForgotPasswordView.swift */,
+				4EBA6C932CA46DF100EAAC43 /* ProfileView.swift */,
+				4EBA6C862CA359A300EAAC43 /* EventListView.swift */,
+				4EBA6C882CA359BB00EAAC43 /* EventDetailView.swift */,
+				4E51BF4E2D5EDACC007D9A84 /* EnrollView.swift */,
+				4EBA6C912CA3999100EAAC43 /* RegistrationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4EBA6C852CA3596600EAAC43 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4EBA6C8A2CA359F000EAAC43 /* EventViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4EBA6C8E2CA3750500EAAC43 /* Main Entry Point */ = {
+			isa = PBXGroup;
+			children = (
+				4EBA6C572CA3588100EAAC43 /* Local_Event_FinderApp.swift */,
+			);
+			path = "Main Entry Point";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +283,9 @@
 				Base,
 			);
 			mainGroup = 4EBA6C4B2CA3588100EAAC43;
+			packageReferences = (
+				4E20BCB72D5EB17D00BAF11F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 4EBA6C552CA3588100EAAC43 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +328,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EBA6C5A2CA3588100EAAC43 /* ContentView.swift in Sources */,
+				4EBA6C8B2CA359F000EAAC43 /* EventViewModel.swift in Sources */,
+				4EBA6C942CA46DF100EAAC43 /* ProfileView.swift in Sources */,
+				4EBA6C892CA359BB00EAAC43 /* EventDetailView.swift in Sources */,
+				4EBA6C832CA3593500EAAC43 /* Event.swift in Sources */,
 				4EBA6C582CA3588100EAAC43 /* Local_Event_FinderApp.swift in Sources */,
+				4EBA6C872CA359A300EAAC43 /* EventListView.swift in Sources */,
+				4E20BCB92D5EB2E000BAF11F /* SignUpView.swift in Sources */,
+				4E51BF4D2D5EB7EA007D9A84 /* WelcomeView.swift in Sources */,
+				4EBA6C8D2CA3606600EAAC43 /* Theme.swift in Sources */,
+				4E51BF472D5EB502007D9A84 /* LoginView.swift in Sources */,
+				4E51BF4F2D5EDACC007D9A84 /* EnrollView.swift in Sources */,
+				4EBA6C902CA398F100EAAC43 /* User.swift in Sources */,
+				4E51BF4B2D5EB664007D9A84 /* ForgotPasswordView.swift in Sources */,
+				4EBA6C922CA3999100EAAC43 /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +666,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4E20BCB72D5EB17D00BAF11F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 4EBA6C4C2CA3588100EAAC43 /* Project object */;
 }

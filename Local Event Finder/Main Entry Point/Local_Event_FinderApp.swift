@@ -11,7 +11,7 @@ import SwiftUI
 struct Local_Event_FinderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            EventListView()
         }
     }
 }
